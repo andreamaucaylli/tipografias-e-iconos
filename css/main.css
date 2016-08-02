@@ -1,0 +1,47 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900);
+
+a{
+	background-color: #FBFBFB;
+	border-color: #F0F0F0;
+	border-style: outset;
+	border-width: 0px 2px 2px 0px;
+	color: #A6A6A6;
+	float: left;
+	font-family: 'Roboto', sans-serif;
+	height: 300px;
+	margin: 5px;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	width: 250px;
+}
+
+.oswald{
+	font-family: 'Oswald', sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	margin: 20px;
+}
+
+h3{
+	margin: 20px;
+}
+
+p{
+	font-size: 16px;
+}
+
+a:hover{
+	-webkit-transition-duration: 2s;
+	-webkit-transform: scale(1.2);
+	color: lightblue;
+}
+
+
